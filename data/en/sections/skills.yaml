@@ -1,0 +1,37 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  logo: "/images/sections/skills/python.png"
+  summary: "Using as the main language with a total of 4 years of experience. Being able to use it for solving data science related problems and also building apps."
+  url: "https://www.python.org/"
+- name: pandas
+  logo: "/images/sections/skills/pandas.png"
+  summary: "Capable of organizing, querying and storing tabular data through the use of dataframes in Python."
+- name: PyTorch
+  logo: "/images/sections/skills/pytorch.png"
+  summary: "Capable of building and implementing different neural network models in this framework. Using it in several problems such as classification and regression."
+  url: "https://pytorch.org/"
+- name: NetworkX
+  logo: "/images/sections/skills/networkx.png"
+  summary: "Ability to model, analyse and manipulate datasets in the form of complex networks. This includes problems related to graph structures, graph algorithms, community detection, collaboration networks, and more."
+- name: Git
+  logo: "/images/sections/skills/git.png"
+  summary: "Experienced with git-based development. Used it mostly in GitHub, also have some experience with Azure Repos."
+- name: MySQL
+  logo: "/images/sections/skills/mysql.png"
+  summary: "Knowledge in how to design and implement relational databases in SQL."
+- name: C++
+  logo: "/images/sections/skills/cplusplus.png"
+  summary: "Knowledge of basic C++ programming. Mostly used for problem solving and contests."
+  url: "https://cplusplus.com/"

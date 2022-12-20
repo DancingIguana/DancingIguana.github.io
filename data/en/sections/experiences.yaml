@@ -1,0 +1,38 @@
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Microsoft
+    url: "https://www.microsoft.com/"
+    location: Redmond, WA.
+    # company overview
+    overview: Worked under the Microsoft Surface division, responsible of the development of all Surface products such as tablets and laptops.
+  positions:
+  - designation: Software Engineer Intern
+    start: June 2022
+    end: August 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Designed and developed internal tool for identifying, notifying and completing poorly filled bug reports in Azure DevOps. This included the use of the AzureDevOps REST API and different Machine Learning related technologies implemented in Python.
+
+- company:
+    name: Universidad Nacional Autónoma de México
+    url: "https://www.unam.mx/"
+    location: Mexico City
+    overview: UNAM is a public research university in Mexico, consistently ranked as one of the best universities in Latin America. I work in here building and analysing the performance of different deep-learning algorithms focused on audio separation.
+  positions:
+  - designation: Research Assistant
+    start: Sep 2022
+    responsibilities:
+    - Development and engineering of modules and algorithms related to audio and signal processing.
+    - Evaluation and validation of audio algorithms applied to sound source separation.

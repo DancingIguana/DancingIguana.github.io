@@ -1,0 +1,20 @@
+# some information about you
+name: "Juan Pablo Maldonado Castro"
+nickname: "Juan Pablo Maldonado Castro"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: ""
+#image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "maldonadocastrojp@gmail.com"
+  phone: "+52 1 443335 6455"
+  #stack-overflow:
+  #  icon: stack-overflow
+  #  url: "https://stackoverflow.com/users/1/exampleUser"
+  #  text: "ExampleUser"
+
+# some summary about what you do
+summary:
+  - I am a student
+  - I like programming
+  - I work on data science related projects

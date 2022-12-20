@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: "Frequency Filtering App"
+  role: Owner
+  timeline: "October 2022"
+  summary: "A small app in Python able to clean periodic noise in images by doing frequency filtering using OpenCV."
+  tags: ["academic","image-processing","Python","OpenCV"]
+
+- name: "Analysis of Scientific Collaboration Networks in Physics (Mexico)"
+  role: "Co-owner"
+  timeline: "November 2022 - December 2022"
+  summary: "Collected, organized and analysed a huge dataset of several physics papers in 'Revista Mexicana de Física' to find relevant authors or collaborations between physicisits."
+  tags: ["academic","web-scraping","network","analysis","machine-learning"]
+
+- name: "Solar System N-body simulation"
+  role: Owner
+  timeline: "April 2021 - May 2021"
+  summary: "A simulation of the orbits from the bodies of the Solar System by solving the N-body problem in C++, plotting in Python, and getting the celestial bodies' coordinates through the NASA Horizon's API."
+  tags: ["academic", "simulation", "c++", "python", "api"]
+
+- name: "2D Dungeon Game"
+  role: Owner
+  summary: "A game in Unity where the player goes through a 2d environment while facing enemies with turn-based style combat designed through a finite-state machine.."
+  tags: ["unity","c#","game","finite-state-machines","hobby"]
+
+- name: "Asteroids Clone"
+  role: Owner
+  summary: "A clone of the Asteroids game made in Unity."
+  tags: ["unity","c#","hobby",]
+
+- name: "Mental Health Data Analysis"
+  role: Owner
+  summary: "A data analysis project which consists in visualizing and interpreting depression, anxiety and stress in people that took a surver related to the topic."
+  tags: ["machine-learning","data-mining","clustering","python","pandas"]
+
+- name: "Melody Generation Neural Network"
+  role: Owner
+  summary: "Implemented a LSTM neural network using Pytorch and Fastai and experimented with a NLP model (GPT-2) to generate musical notes that form a melody."
+  tags: ["neural-networks","nlp","academic","python","pytorch"]
+
+- name: "Physics Olympics Database"
+  role: Contributor
+  summary: "Design and implementation of a relational database in MySQL used for Michoacán's Physics Olympics."
+  tags: ["database","sql","mysql","academic"]

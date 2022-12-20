@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.Sc. in Data Science
+  icon: fa-graduation-cap
+  timeframe: 2019-2023
+  institution:
+    name: Universidad Nacional Autónoma de México 
+    url: "https://www.unam.mx/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 99.5
+    outOf: 100
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Data Structures and Algorithms
+      achieved: 10
+      outOf: 10
+    - name: Artificial Intelligence
+      achieved: 10
+      outOf: 10
+    - name: Machine Learning
+      achieved: 10
+      outOf: 10
+    - name: Data Mining
+      achieved: 10
+      outOf: 10
+    - name: Neural Networks
+      achieved: 10
+      outOf: 10
+    - name: Evolutionary Computation
+      achieved: 10
+      outOf: 10
+    - name: Numerical Analysis
+      achieved: 10
+      outOf: 10
+    - name: Software Engineering
+      achieved: 10
+      outOf: 10
+    - name: Network analysis
+      achieved: 10
+      outOf: 10
+    - name: Digital Image Processing
+      achieved: 10
+      outOf: 10
+    - name: Databases
+      achieved: 9
+      outOf: 10
+    
+  extracurricularActivities: #(optional)
+  - Research Assistant
