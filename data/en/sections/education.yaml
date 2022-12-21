@@ -58,6 +58,6 @@ degrees:
     - name: Databases
       achieved: 9
       outOf: 10
-    
+    - name: 
   extracurricularActivities: #(optional)
   - Research Assistant
